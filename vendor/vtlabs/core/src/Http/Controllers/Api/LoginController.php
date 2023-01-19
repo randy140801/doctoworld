@@ -35,10 +35,11 @@ class LoginController extends Controller
             if ($this->_isSimulateUser()) {
                 return $this->_prepareResponse(User::findOrFail(request()->input('simulate_user')));
             }
-
+            
             $decoded = JWT::decode($request->token, CoreHelper::getFirebaseKeyIds(), array('RS256'));
+            $firebase_ISS = env('FIREBASE_ISS');
 
-            if ($decoded->iss !== FirebaseService::getFirebaseIss()) {
+            if ($decoded->iss !== $firebase_ISS) {
                 throw new \Exception('Wrong FIREBASE_ISS provided');
             }
 
