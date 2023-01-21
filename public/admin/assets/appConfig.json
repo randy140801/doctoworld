@@ -1,9 +1,0 @@
-{
-    "appName": "Doctoworld",
-    "apiBaseUrl": "http://localhost/doctoworld/public/api/admin",
-    "mapsApiKey": "AIzaSyBCjJGTp__kOJb2mMUsBeKQkuOlwbiJipQ",
-    "developerName": "Verbose Techlabs LLP",
-    "developerUrl": "http://verbosetechlabs.com/",
-    "defaultCategoryScope": "ecommerce",
-    "defaultBannerScope": "ecommerce"
-}
