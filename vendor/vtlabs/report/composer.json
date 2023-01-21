@@ -1,0 +1,28 @@
+{
+    "name": "vtlabs/report",
+    "type": "project",
+    "description": "Report in Laravel",
+    "require": {
+        "laravel/framework": "^6.0"
+    },
+
+    "authors": [
+        {
+            "name": "Ujjwal Wahi",
+            "email": "w.ujjwal@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vtlabs\\Report\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vtlabs\\Report\\ReportServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
