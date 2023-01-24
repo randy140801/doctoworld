@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'vtlabs/doctoworld',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'b374b7113e5742d8feb1889bbd588a2d156858dc',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -2004,9 +2004,9 @@
             'dev_requirement' => false,
         ),
         'vtlabs/doctoworld' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'b374b7113e5742d8feb1889bbd588a2d156858dc',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
