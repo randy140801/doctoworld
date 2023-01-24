@@ -1,9 +1,0 @@
-{
-    "appName": "Mediverso Admin",
-    "apiBaseUrl": "http://mediverso.com/api/admin",
-    "mapsApiKey": "",
-    "developerName": "Nexxenn",
-    "developerUrl": "http://mediverso.com/",
-    "defaultCategoryScope": "ecommerce",
-    "defaultBannerScope": "ecommerce"
-}
